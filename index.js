@@ -1,5 +1,7 @@
 const Service, Characteristic;
 
+console.log('**********************************************');
+
 var state = 0;
 
 function debug() {
