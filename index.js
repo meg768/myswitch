@@ -26,8 +26,8 @@ mySwitch.prototype = {
     }
 };
 
-module.exports = function(homebridge) {
-    Service = homebridge.hap.Service;
-    Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory("switch-plugin", "MyAwesomeSwitch", mySwitch);
+module.exports = function (homebridge) {
+  Service = homebridge.hap.Service;
+  Characteristic = homebridge.hap.Characteristic;
+  homebridge.registerAccessory("switch-plugin", "MyAwesomeSwitch", mySwitch);
 };
